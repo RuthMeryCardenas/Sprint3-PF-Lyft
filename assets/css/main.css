@@ -3,47 +3,39 @@
   padding: 0;
 }
 
-html {
-  font-size: 62.5%;
-}
-
 body {
   font-family: 'Montserrat', sans-serif;
-  font-size: 10px;
+  font-size: 16px;
 }
 
-header {
+#nav-bar {
+  background-color: transparent;
+  box-sizing: border-box;
   height: 100px;
   left: 0;
+  padding: 0 50px;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
 }
 
-#nav-header {
-  background-color: transparent;
-  font-size: 1.6rem;
-  height: 100%;
-  padding: 0 50px;
-}
-
-#nav-header > div {
+#nav-bar > div {
   box-sizing: border-box;
   float: left;
   height: 100%;
 }
 
-#nav-header .container-logo {
-  background-color: orange;
+#nav-bar .container-logo {
+  /*background-color: orange;*/
   text-align: center;
   width: 10%;
 }
-#nav-header #logo {
+#nav-bar #logo {
   height: 35%;
   width: 35%;
 }
-#nav-header .container-list {
+#nav-bar .container-list {
   width: 70%;
 }
 
@@ -63,8 +55,9 @@ header {
   text-decoration: none;
 }
 
-#nav-header .container-button {
+#nav-bar .container-button {
   padding-top: 35px;
+  width: 20%;
 }
 
 .container-button .nav-button{
@@ -72,12 +65,101 @@ header {
   border: 1px solid #FFFFFF;
   border-radius: 10%;
   color: #FFFFFF;
-  font-size: 1.6rem;
+  font-size: 1rem;
   margin: 0 15px;
   padding: 5px 10px;
 }
 
-.container-form {
-  background-color: black;
-  height: 700px;
+.full-screen {
+  height: auto;
+  width: 100%;
+  position: relative;
+}
+
+header {
+}
+
+header .container-video {
+
+}
+
+header #header-video {
+  height: auto;
+  width: 100%;
+}
+
+header .container-form {
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  color: #352384;
+  padding: 5%;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  width: 50%;
+}
+
+header .container-form h1 {
+  font-size: 42px;
+  line-height: 1.25;
+}
+
+header .container-form p {
+  font-size: 14px;
+  padding: 5px 0;
+}
+
+header .container-form label {
+  color: #000000;
+  display: inline-block;
+  font-size: 10px;
+  padding: 10px 0;
+}
+
+header .container-form input, .data {
+  width: 100%;
+}
+
+header .container-form input {
+  border: 0;
+  border-bottom: 1px solid #352384;
+  padding: 5px 0;
+}
+
+.data {
+  font-size: 1rem;
+}
+
+header .container-form a {
+  display: inline-block;
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.form-link {
+  color: #5B5B5B;
+}
+
+.form-link:hover {
+  color: #FF00BF;
+}
+
+.form-button {
+  background-color: #FF00BF;
+  border-radius: 10px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.main-information {
+  background-color: #6F278C;
+}
+
+.videos {
+  background-color: green;
+}
+
+.secondary-information {
+  background-color: blue;
 }
