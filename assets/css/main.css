@@ -85,10 +85,12 @@ header .container-video {
 }
 
 header #header-video {
-  height: auto;
   width: 100%;
 }
 
+.hidden {
+  display: none;
+}
 header .container-form {
   background-color: #FFFFFF;
   box-sizing: border-box;
@@ -124,7 +126,7 @@ header .container-form input, .data {
 header .container-form input {
   border: 0;
   border-bottom: 1px solid #352384;
-  padding: 5px 0;
+  padding: 10px 0;
 }
 
 .data {
