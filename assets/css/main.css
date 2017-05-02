@@ -32,8 +32,10 @@ body {
   width: 10%;
 }
 #nav-bar #logo {
-  height: 35%;
-  width: 35%;
+  height: 50%;
+  position: relative;
+  top: 25px;
+  width: 50%;
 }
 #nav-bar .container-list {
   width: 70%;
@@ -73,7 +75,6 @@ body {
 .full-screen {
   height: auto;
   width: 100%;
-  position: relative;
 }
 
 header {
@@ -96,7 +97,7 @@ header .container-form {
   position: absolute;
   right: 0;
   top: 100px;
-  width: 50%;
+  width: 45%;
 }
 
 header .container-form h1 {
@@ -110,7 +111,7 @@ header .container-form p {
 }
 
 header .container-form label {
-  color: #000000;
+  color: #728099;
   display: inline-block;
   font-size: 10px;
   padding: 10px 0;
@@ -153,11 +154,79 @@ header .container-form a {
 }
 
 .main-information {
-  background-color: #6F278C;
+  background: linear-gradient(to bottom, #76278F , #2B1E66);
+  color: #FFFFFF;
+  height: 600px;
+}
+
+.main-information .colum-left, .main-information .colum-right{
+  box-sizing: border-box;
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
+.main-information .colum-left{
+  padding: 75px 125px 0 79.08px;
+}
+
+.main-information .colum-left h2{
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+.main-information .colum-left p{
+  padding-bottom: 50px;
+  line-height: 1.5;
+}
+
+.main-information .colum-right{
+  padding-top: 75px;
+  padding-right: 79.08px;
+}
+
+.main-information .colum-right img{
+  height: 100%;
+  width: 100%;
 }
 
 .videos {
+  overflow: auto;
+}
+
+.videos .text,
+.videos .video {
+  box-sizing: border-box;
+  height: 475px;
+}
+
+.videos .text {
+  width: 30%;
+  background-color: #FFFFFF;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+.videos .text h4{
+
+}
+
+.videos .video {
+  width: 70%;
   background-color: green;
+}
+
+.videos .video iframe{
+  height: 100%;
+  width: 100%;
+}
+
+.videos .float-left {
+  float: left;
+}
+
+.videos .float-right {
+  float: right;
 }
 
 .secondary-information {
