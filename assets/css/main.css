@@ -129,6 +129,9 @@ header .container-form input {
   padding: 10px 0;
 }
 
+header .container-form .input-error {
+  border-bottom: 2px solid red;
+}
 .data {
   font-size: 1rem;
 }
